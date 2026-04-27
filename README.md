@@ -1,110 +1,121 @@
-# 🚀 Zepto Inventory & Pricing Analysis (SQL Project)
+# 🚀 Zepto Inventory & Pricing Analysis (Quick Commerce Strategy)
+
+---
+
+## 🚀 Key Highlights
+
+- Analyzed **SKU-level pricing & inventory data**
+- Identified **pricing inefficiencies & discount patterns**
+- Detected **out-of-stock high-value products (revenue loss)**
+- Performed **price-per-unit analysis for true product value**
+- Evaluated **inventory distribution and demand signals**
 
 ---
 
 ## 📌 Overview
 
-This project analyzes **inventory performance and pricing strategies** using SQL to uncover actionable insights for cost optimization and revenue growth in a retail (quick-commerce) environment.
+This project analyzes inventory and pricing strategies in a quick commerce environment (Zepto-like model).
 
-The analysis focuses on identifying inefficiencies in stock management, pricing gaps, and high-impact business opportunities.
+The goal is to understand how pricing, stock availability, and product positioning impact revenue and customer value.
 
 ---
 
 ## 🧠 Problem Statement
 
-Retail businesses often struggle with:
+Quick commerce platforms face challenges like:
 
-* Overstocking and understocking of products
-* Ineffective pricing and discount strategies
-* Poor visibility into high-margin and slow-moving items
+- Dynamic pricing fluctuations  
+- Frequent stock-outs  
+- High competition and discount pressure  
+- Difficulty identifying true product value  
 
-These challenges lead to **lost revenue, increased costs, and inefficient inventory utilization**.
+This project solves these using structured data analysis.
 
 ---
 
 ## 🎯 Objectives
 
-* Identify **top-performing and high-revenue products**
-* Analyze **pricing and discount impact on sales**
-* Detect **slow-moving and dead inventory**
-* Evaluate **category-level performance**
-* Provide insights for **inventory and pricing optimization**
+- Analyze MRP vs selling price differences  
+- Identify high-discount and high-value products  
+- Detect stock availability issues  
+- Evaluate pricing efficiency  
+- Understand product-level profitability signals  
 
 ---
 
 ## 🛠️ Tools Used
 
-* **SQL Server (SSMS)** – Data analysis and querying
+- SQL (Data Extraction & Analysis)  
+- Data Cleaning  
+- Exploratory Data Analysis (EDA)  
+- Data Visualization  
 
 ---
 
-## 📂 Project Structure
+## 📂 Dataset
 
-```
-queries/
-│── data_cleaning.sql        -- Data preparation & validation
-│── analysis.sql             -- Exploratory data analysis (EDA)
-│── business_queries.sql     -- Business insights & strategy queries
-```
+- SKU-level product dataset  
+- Includes:
+  - Product categories  
+  - MRP & selling price  
+  - Discount %  
+  - Stock availability  
 
 ---
 
 ## 🔍 Key Analysis
 
+### 📊 Data Cleaning
+- Removed null and inconsistent values  
+- Standardized pricing fields  
+
+---
+
+### 📊 Pricing Analysis
+- Compared MRP vs selling price  
+- Identified aggressive discounting patterns  
+
+👉 Insight: Pricing directly impacts demand and perception  
+
+---
+
+### 📊 Value Analysis (Price per Unit)
+- Calculated price per kg/unit  
+- Identified best-value products  
+
+---
+
 ### 📊 Inventory Analysis
-
-* Identified low-stock and overstocked products
-* Detected slow-moving and excess inventory
-
----
-
-### 📊 Pricing Strategy Analysis
-
-* Evaluated discount effectiveness
-* Identified products with high margin potential
+- Detected out-of-stock high-MRP products  
+- Highlighted revenue loss opportunities  
 
 ---
 
-### 📊 Revenue Insights
-
-* Analyzed category-wise revenue contribution
-* Identified top-performing products driving sales
-
----
-
-### 📊 Business Risk Detection
-
-* Highlighted dead inventory (high stock, low demand)
-* Estimated revenue loss from out-of-stock products
+### 📊 Category Insights
+- Analyzed category-wise pricing trends  
+- Identified top-performing categories  
 
 ---
 
-## 💡 Key Insights
+## 💰 Business Impact
 
-* A small set of products contributes to the majority of revenue (**Pareto principle**)
-* Overstocked items with low discounts indicate **inefficient inventory planning**
-* High-margin products present opportunities for **pricing optimization**
-* Stockouts can lead to **significant revenue loss**
-
----
-
-## 📈 Resume Highlights
-
-* Performed end-to-end inventory and pricing analysis using SQL
-* Developed business-focused queries to identify revenue drivers and inefficiencies
-* Applied aggregations, joins, and analytical logic for decision-making
-* Delivered actionable insights for inventory optimization and pricing strategy
+- Identified pricing inefficiencies affecting margins  
+- Highlighted stock-out driven revenue loss  
+- Provided insights for better pricing strategies  
+- Improved understanding of customer value perception  
 
 ---
 
-## 🚀 Future Improvements
+## 🧩 Skills Demonstrated
 
-* Build interactive dashboard using Power BI
-* Implement real-time inventory tracking
-* Develop predictive models for demand forecasting
+- Data Cleaning  
+- SQL Analysis  
+- Pricing Strategy Analysis  
+- Inventory Analysis  
+- Business Insight Generation  
 
 ---
 
-## 🤝 Connect
+## 🚀 Conclusion
 
-If you found this project useful or want to collaborate, feel free to connect!
+This project demonstrates how pricing and inventory data can be used to optimize quick commerce operations, improve profitability, and enhance customer experience.
